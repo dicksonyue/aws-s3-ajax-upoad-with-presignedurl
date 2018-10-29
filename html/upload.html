@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AJAX upload with S3 PreSigned URL</title>
+  </head>
+  <body>
+    <form id="forms3upload" method="POST" enctype="multipart/form-data" >
+        <label for="signedurl">PreSigned URL:</label>
+        <input type="text" name="txtsignedurl" id="txtsignedurl" value="">
+        <br>
+        <label for="signedurl">File:</label>
+
+        <input id="files3object" name="files3object" type="file"/>
+        <br>
+        <button id="theButton" type="submit">Submit</button>
+    </form>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="upload.js"></script>
+</html>
